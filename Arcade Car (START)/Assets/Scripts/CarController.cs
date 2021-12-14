@@ -38,6 +38,7 @@ public class CarController : MonoBehaviour
         if (Input.GetAxis("Vertical") > 0)
         {
             speedInput = Input.GetAxis("Vertical") * forwardacceleration * 1000f;
+            Debug.Log("kenny");
         }
         else if (Input.GetAxis("Vertical") < 0)
         {
